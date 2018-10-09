@@ -1,0 +1,8 @@
+<ifModule mod_rewrite.c>
+    RewriteEngine On
+    
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteRule "^ola/(.+)$" index.php?nome=$1 [NC,L]
+    RewriteRule "^pesquisa/(.+)/([0-9]{1})$" index.php?nome=$1&id=$2 [NC,L]
+</ifModule>

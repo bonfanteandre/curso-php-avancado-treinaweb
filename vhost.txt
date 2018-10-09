@@ -1,0 +1,22 @@
+Adicionar virtualhost:
+
+C:\xampp\apache\extra\httpd-vhosts.conf
+
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs"
+    ServerName localhost
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "C:/MeuProjeto"
+    ServerName meuprojeto.dev
+    <Directory "C:/MeuProjeto">
+        Require all granted
+    </Directory>
+</VirtualHost>
+
+Adicionar dns no arquivo de hosts do Windows
+
+127.0.0.1           meuprojeto.dev
+
+Reiniciar Apache

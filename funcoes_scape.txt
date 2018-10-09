@@ -1,0 +1,3 @@
+htmlspecialchars() - Converte os caracteres <, >, & para entidades HTML equivalentes.
+strip_tags() - Remove todos os elementos HTML do texto.
+addslashes() - Escapa um texto.
