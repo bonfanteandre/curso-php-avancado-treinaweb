@@ -1,0 +1,3 @@
+> Em httpd.conf
+> Descomentar linha com: mod_deflate
+> Descomentar linha com: mod_filter

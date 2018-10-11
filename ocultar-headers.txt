@@ -1,0 +1,8 @@
+//php.ini
+
+expose_php=Off
+
+//httpd.conf
+
+ServerSignature Off
+ServerTokens ProductOnly
