@@ -1,0 +1,6 @@
+{
+    "name": "Teste Recaptcha",
+    "require": {
+        "google/recaptcha": "^1.2"
+    }
+}

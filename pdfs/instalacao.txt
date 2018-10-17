@@ -1,0 +1,2 @@
+composer require h4cc/wkhtmltopdf-i386 0.12.x
+composer require h4cc/wkhtmltoimage-i386 0.12.x

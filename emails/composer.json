@@ -1,0 +1,6 @@
+{
+    "name": "Teste envio e-mails",
+    "require": {
+        "swiftmailer/switfmailer": "~5.0"
+    }
+}
