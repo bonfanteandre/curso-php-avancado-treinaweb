@@ -1,0 +1,6 @@
+{
+    "name": "Meu projeto",
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*"
+    }
+}

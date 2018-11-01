@@ -1,0 +1,14 @@
+{
+    "name": "Tarefas",
+    "description": "Projeto para aprender sobre componentes do Symfony",
+    "require": {
+        "symfony/http-foundation": "2.7.0",
+        "symfony/http-kernel": "2.7.0",
+        "symfony/routing": "2.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TreinaWeb\\": "lib/TreinaWeb"
+        }
+    }
+}
